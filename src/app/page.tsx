@@ -1,3 +1,6 @@
+"use client";
+
+import Acomodacoes from "@/widgets/Acomodacoes";
 import BarraPesquisa from "@/widgets/BarraPesquisa";
 import BarraSuperior from "@/widgets/BarraSuperior";
 import NavegacaoAbas from "@/widgets/NavegacaoAbas";
@@ -14,6 +17,7 @@ export default function Home() {
 
       <main className="container mx-auto">
         <NavegacaoAbas />
+        <Acomodacoes />
       </main>
 
       <div className="border-green-600 border-2 mt-5">Área conteúdos</div>  
