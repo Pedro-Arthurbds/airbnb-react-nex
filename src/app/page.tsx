@@ -4,6 +4,7 @@ import Acomodacoes from "@/widgets/Acomodacoes";
 import BarraPesquisa from "@/widgets/BarraPesquisa";
 import BarraSuperior from "@/widgets/BarraSuperior";
 import NavegacaoAbas from "@/widgets/NavegacaoAbas";
+import Rodape from "@/widgets/Rodape";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
           <BarraPesquisa />
       </header>  
 
-      <hr className="my-3" />
+      <hr className="my-6" />
 
       <main className="container mx-auto">
         <NavegacaoAbas />
@@ -23,7 +24,7 @@ export default function Home() {
       <div className="border-green-600 border-2 mt-5">Área conteúdos</div>  
   
       <footer className="border-purple-600 border-2">
-        Rodapé
+        <Rodape />
       </footer>
     </>
   );
