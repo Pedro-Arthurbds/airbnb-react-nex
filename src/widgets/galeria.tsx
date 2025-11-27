@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link"
 
 type Foto = {
     id: string;
@@ -16,7 +15,7 @@ const Galeria = (
 ) => {
 
     return (
-        <div className=" grid grid-cols-6 gap-2">
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
             {fotos.slice(0, 9).map((foto, indice) => {
                 const primeiraFoto = indice == 0 ? 'col-span-2 row-span-2' : ''
                 return (

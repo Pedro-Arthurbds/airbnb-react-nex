@@ -6,5 +6,15 @@ export {
     IconSearch,
     IconAdjustmentsHorizontal,
     IconHeartFilled,
-    IconStarFilled
+    IconStarFilled,
+    IconPhoto,
+    IconToolsKitchen2,
+    IconDesk,
+    IconPool,
+    IconBrandCarbon,
+    IconWifi,
+    IconParking,
+    IconAlarmSmoke,
+    IconSailboat,
+    IconDog,
 } from '@tabler/icons-react'
